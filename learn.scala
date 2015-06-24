@@ -11,6 +11,6 @@ object HelloWorld {
 
 	def main(args: Array[String]) {
 		args.foreach((x : String) =>
-			println("Factorial of "+x+" is "+fact(x.toInt)));
+			println("Factorial of "+x+" is "+fact(x.toInt)))
 	}
 }
