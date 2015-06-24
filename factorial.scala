@@ -1,5 +1,5 @@
 
-object HelloWorld {
+object Factorial {
 
 	def fact(i : BigInt) : BigInt = i match {
 		case x : BigInt if x == 0 => 1
