@@ -1,5 +1,5 @@
 #!/bin/sh
-	exec scala -savecompiled "$0" "$@"
+	exec scala "$0" "$@"
 !#
 
 object HelloWorld {
